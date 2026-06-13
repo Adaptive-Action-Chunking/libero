@@ -16,4 +16,4 @@ logs/
 *.mp4
 libero.egg-info/
 .vscode/
-/libero/libero/assets
+/libero/
