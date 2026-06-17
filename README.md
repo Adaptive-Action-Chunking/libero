@@ -1,6 +1,8 @@
 # Adaptive Action Chunking at Inference-time for Vision-Language-Action Models (LIBERO Evaluation)
 
-This is the official codebase of AAC.
+This is the official codebase of AAC for LIBERO-PRO evaluation. The exmaple GR00T policy server is provided here: [GR00T N1.5 Multi-sample](https://github.com/Adaptive-Action-Chunking/gr00t-multi-sample).
+
+Other simulation clients to AAC evaluation can be found here: [RoboCasa](https://github.com/Adaptive-Action-Chunking/robocasa), [LIBERO-PRO](https://github.com/Adaptive-Action-Chunking/libero-pro).
 
 [**[Home page]**](https://lance-lot.github.io/adaptive-chunking.github.io/) &ensp; [**[Paper]**](https://arxiv.org/abs/2604.04161)
 
