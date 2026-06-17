@@ -25,12 +25,12 @@ Our implementation is based on server-client mode. This repo only includes the c
 example to run the evaluation client for one task with AAC:
 ```sh
 cd gr00t_benchmark
-python inference_client_action_entropy.py --num_trials_per_task 50 --task_suite_name libero_10 --port 8091 --out_path ~/Videos/libero_output/action_entropy_seed_43 --chunk_size_selector gaussian_bernoulli --chunk_id_selector 0 --move_th 3 --seed 43
+python inference_client_action_entropy.py --num_trials_per_task 50 --task_suite_name libero_10 --port 8091 --out_path ~/Videos/libero_output/action_entropy --chunk_size_selector gaussian_bernoulli --chunk_id_selector 0 --move_th 3 --seed 42
 ```
 
 Configure --task_suite_name for different task suites in LIBERO, set --port according to your policy server.
 
-Refer to [gr00t_benchmark/action_entropy_seed43.sh](https://github.com/Adaptive-Action-Chunking/libero/blob/main/gr00t_benchmark/action_entropy_seed43.sh) for more example scripts.
+Refer to [gr00t_benchmark/action_entropy.sh](https://github.com/Adaptive-Action-Chunking/libero/blob/main/gr00t_benchmark/action_entropy.sh) for more example scripts.
  
 -------
 ## Citation
